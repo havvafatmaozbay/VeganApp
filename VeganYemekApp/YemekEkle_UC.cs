@@ -175,7 +175,7 @@ namespace VeganYemekApp
         private void btn_sil_Click(object sender, EventArgs e)
         {
             SqlCommand komut = new SqlCommand("delete from Tbl_Yemekler where YemekAd='" + comboBox1.Text + "'", baglantiekle.baglanti());
-            //komut.Parameters.AddWithValue("@YemekAd", comboBox1.Text);
+
             komut.ExecuteNonQuery();
 
             DialogResult secenek = MessageBox.Show("Yemeği Silmek İstediğinizden Emin misiniz?", "Bilgilendirme Penceresi", MessageBoxButtons.YesNo, MessageBoxIcon.Information);

@@ -53,9 +53,7 @@ namespace VeganYemekApp
                 SqlDataReader dr = komut.ExecuteReader();
 
 
-                // DataSet ds = new DataSet();
-                //dt = ds.Tables[0];
-                //dataGridView1.DataSource = ds.Tables[0];
+              
             }
         }
 
@@ -114,7 +112,7 @@ namespace VeganYemekApp
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-
+            //sdjkfdns
         }
     }
 }

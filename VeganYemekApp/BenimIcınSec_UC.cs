@@ -141,8 +141,7 @@ namespace VeganYemekApp
 
             while (drr.Read())
             {
-                //richTextBox1.Text = dr.GetString(3);
-                //richTextBox2.Text = dr.GetString(2);
+
                 donenbytelar = drr.GetBytes(0, 0, bytediziResim, 0, 50);
                 while (donenbytelar == 50)
                 {

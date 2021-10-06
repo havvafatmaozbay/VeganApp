@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeganYemekApp", "VeganYemekApp\VeganYemekApp.csproj", "{00E49714-4161-4C19-97ED-DFE311A3F54C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00E49714-4161-4C19-97ED-DFE311A3F54C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00E49714-4161-4C19-97ED-DFE311A3F54C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00E49714-4161-4C19-97ED-DFE311A3F54C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00E49714-4161-4C19-97ED-DFE311A3F54C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37320498-6B4A-4377-B1DF-DE14E1DE7AF0}
+	EndGlobalSection
+EndGlobal
